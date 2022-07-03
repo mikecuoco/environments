@@ -1,0 +1,65 @@
+# this is a conda environment for my general-use shell tools
+name: shell
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - conda-forge::gcc_linux-64 # compiler, TODO: why do I need this?
+  - anaconda::openssl
+  - conda-forge::tar
+  - conda-forge::socat # for proxies
+  - conda-forge::bat # better cat
+  - conda-forge::git>=2.3
+  - conda-forge::wget
+  - conda-forge::gh # github cli
+  - conda-forge::delta # pretty diffs
+  - conda-forge::fzf # awesome file finder
+  - conda-forge::the_silver_searcher # better grep (shortcut = ag)
+  - conda-forge::ripgrep # fastest grep (shortcut = rg)
+  - conda-forge::rclone # cloud access
+  - conda-forge::xsv # csv manipulation
+  - conda-forge::cookiecutter # project templates
+  - conda-forge::pandoc # doc conversion
+  - conda-forge::parallel # GNU parallel
+  - conda-forge::pigz # parallel gzip
+  - conda-forge::ncdu # disk usage
+  - conda-forge::jq # JSON processing
+  - bioconda::rename # batch renaming
+  - bioconda::datamash # bash table operations
+  - conda-forge::r-base>=4.1
+  - anaconda::jupyter
+  - anaconda::notebook
+  - conda-forge::numpy>=1.22
+  - conda-forge::pandas>=1.4.2
+  - conda-forge::ipykernel
+  - anaconda::nbconvert
+  - conda-forge::r-irkernel
+  - conda-forge::nb_conda_kernels
+  - conda-forge::rpy2
+  - conda-forge::r-essentials
+  - conda-forge::r-languageserver
+  - conda-forge::radian
+  - bioconda::seqkit # fastq/a operations
+  - bioconda::htslib>=1.15
+  - bioconda::samtools>=1.15
+  - bioconda::bcftools>=1.15
+  - bioconda::bedtools>=2.30.0
+  - bioconda::bedops
+  - bioconda::ucsc-bigbedtobed
+  - bioconda::ucsc-bigBedSummary
+  - bioconda::ucsc-bigbedinfo
+  - bioconda::ucsc-bedtobigbed
+  - bioconda::gffutils
+  - bioconda::gffread
+  - conda-forge::biopython
+  - bioconda::pysam>=0.19
+  - bioconda::fastq_utils
+  - bioconda::snakemake>=7.8
+  - bioconda::nextflow>=21
+  - bioconda::nf-core>=2.4
+  - bioconda::fastqc>=0.11.9
+  - bioconda::multiqc>=1.12
+  - bioconda::rna-seqc
+  - bioconda::cutadapt>=4.0
+  - bioconda::trim-galore>=0.6.7

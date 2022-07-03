@@ -1,0 +1,63 @@
+name: rnaseq
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::radian
+  - conda-forge::r-base>=4.1
+  - conda-forge::r-essentials>=4.1
+  - anaconda::r-languageserver
+  - anaconda::r-irkernel # Run R kernel in jupyter
+
+  - anaconda::r-gridextra 
+  
+  - conda-forge::r-hmisc
+  - conda-forge::r-vroom
+  - conda-forge::r-ggstatsplot
+  - conda-forge::r-glue
+  - conda-forge::r-patchwork
+  - conda-forge::r-janitor
+  - conda-forge::r-biocmanager
+  - conda-forge::r-ggnewscale #Req for enrichplot
+  - conda-forge::r-ggpubr
+
+  - bioconda::bioconductor-apeglm #LFC for DESeq2
+  - bioconda::bioconductor-annotationhub
+  - bioconda::bioconductor-biomart #Annotaions of Gene IDs/Symbols
+  - bioconda::bioconductor-complexheatmap
+  - bioconda::bioconductor-deseq2
+  - bioconda::bioconductor-degreport
+  - bioconda::bioconductor-do.db # annotation maps describing the entire Disease Ontology
+  - bioconda::bioconductor-dorothea # TF analysis
+  - bioconda::bioconductor-edger
+  - bioconda::bioconductor-enhancedvolcano
+  - bioconda::bioconductor-fgsea # GSEA
+  - bioconda::bioconductor-genomicfeatures
+  - bioconda::bioconductor-ggtree
+  - bioconda::bioconductor-gosemsim #semantic comparisons of Gene Ontology (GO) annotations
+  - bioconda::bioconductor-org.hs.eg.db
+  - bioconda::bioconductor-pcatools
+  - bioconda::bioconductor-rtracklayer
+  - bioconda::bioconductor-sva # for batch correction
+  - bioconda::bioconductor-tximport 
+  - bioconda::bioconductor-tximeta
+ 
+
+  - bioconductor-enrichplot=1.14.1=r41hdfd78af_0
+  - bioconductor-dorothea=1.6.0=r41hdfd78af_0
+  - bioconductor-dose=3.20.0=r41hdfd78af_0
+  - bioconductor-do.db=2.9=r41hdfd78af_12
+  - bioconductor-clusterprofiler=4.2.0=r41hdfd78af_0
+  
+  
+  
+  - conda-forge::r-upsetr # upset plotting
+  - conda-forge::r-seurat>=4 # most useing for gene thesaurus function
+  - conda-forge::r-msigdbr
+  - conda-forge::r-venn #enable setdiff, etc for 2+ sets
+ 
+
+#Python
+  - conda-forge::suds-py3 #SOAP Client for David
+  - anaconda::pandas

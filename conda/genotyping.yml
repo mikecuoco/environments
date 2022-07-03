@@ -1,0 +1,14 @@
+name: genotyping 
+dependencies:
+  - conda-forge::r-base>=4.1
+  - conda-forge::r-essentials
+  - conda-forge::radian # for R in VScode
+  - conda-forge::r-languageserver # for R in VScode
+  - bioconda::plink
+  - bioconda::plink2
+  - bioconda::htslib>=1.15
+  - bioconda::samtools>=1.15
+  - bioconda::bcftools>=1.15
+  - bioconda::beagle
+  - bioconda::picard>=2.27
+  - bioconda::gatk>=3.8

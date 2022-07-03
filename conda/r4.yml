@@ -1,0 +1,21 @@
+name: r4
+channels:
+  - bioconda
+  - biocore
+  - r
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::radian
+  - anaconda::r-languageserver
+  - conda-forge::r-base>=4.1
+  - conda-forge::r-essentials>=4.1
+  - conda-forge::r-biocmanager
+  - conda-forge::r-vroom
+  - conda-forge::r-ggstatsplot
+  - conda-forge::r-janitor
+  - conda-forge::r-patchwork
+  - bioconda::bioconductor-do.db
+  - bioconda::bioconductor-org.hs.eg.db
+  - bioconda::bioconductor-clusterprofiler
+  
