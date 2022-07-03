@@ -1,0 +1,9 @@
+name: nf
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+   - bioconda::nf-core
+   - bioconda::nextflow>=21.10.6
+   - conda-forge::pytest-workflow
