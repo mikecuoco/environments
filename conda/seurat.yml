@@ -1,6 +1,7 @@
 name: seurat
 dependencies:
-  - python=3.7
+  - python>=3.9
+  - pip
   - conda-forge::r-base>=4.1
   - conda-forge::r-essentials>=4.1
   - conda-forge::r-glue
@@ -12,15 +13,19 @@ dependencies:
   - conda-forge::r-biocmanager
   - conda-forge::r-ggstatsplot
   - conda-forge::r-seurat>=4.1.0
-  - bioconda::r-sceasy>=0.0.6
   - bioconda::bioconductor-scater>=1.22.0
   - bioconda::bioconductor-limma # faster FindAllMarkers()
   - conda-forge::leidenalg # for FindClusters(algorithm = 4)
   - conda-forge::r-hdf5r # for Read10X_h5()
   - bioconda::bioconductor-dittoseq
   - bioconda::bioconductor-clusterprofiler # gene enrichment analysis
-  - scipy<1.3.0 # don't specify channel, let conda solve
-  - conda-forge::pandas
-  - bioconda::bioconductor-scds # doublet detection
+  - bioconda::bioconductor-mast>=1.20.0 # for MAST differential expression
+  - conda-forge::r-lme4 # for MAST options
+  - bioconda::bioconductor-deseq2>=1.34.0
+  - bioconda::bioconductor-apeglm # LFC for DESeq2
+  - bioconda::bioconductor-pcatools
+  - bioconda::bioconductor-enhancedvolcano
+  - conda-forge::r-matrix.utils
   - pip:
+    - scrublet # doublet detection
     - umap-learn==0.5.3
