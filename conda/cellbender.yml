@@ -1,6 +1,9 @@
 name: cellbender
 dependencies:
   - python=3.7
+  - pip
   - anaconda::pytables
   - pytorch::pytorch
   - pytorch::torchvision
+  - pip:
+    - "--editable=git+https://github.com/broadinstitute/CellBender.git#egg=CellBender"
