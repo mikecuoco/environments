@@ -28,8 +28,7 @@ dependencies:
   - bioconda::rename # batch renaming
   - bioconda::datamash # bash table operations
   - conda-forge::r-base>=4.1
-  - anaconda::jupyter
-  - anaconda::notebook
+  - conda-forge::jupyterlab>=3.4.3
   - conda-forge::numpy>=1.22
   - conda-forge::pandas>=1.4.2
   - conda-forge::ipykernel
@@ -63,3 +62,4 @@ dependencies:
   - bioconda::rna-seqc
   - bioconda::cutadapt>=4.0
   - bioconda::trim-galore>=0.6.7
+  - conda-forge::poetry>=1.1.14
