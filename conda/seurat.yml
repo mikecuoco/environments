@@ -26,6 +26,7 @@ dependencies:
   - bioconda::bioconductor-pcatools
   - bioconda::bioconductor-enhancedvolcano
   - conda-forge::r-matrix.utils
+  - bioconda::bioconductor-glmgampoi
   - pip:
     - scrublet # doublet detection
     - umap-learn==0.5.3
