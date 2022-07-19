@@ -62,4 +62,4 @@ dependencies:
   - bioconda::rna-seqc
   - bioconda::cutadapt>=4.0
   - bioconda::trim-galore>=0.6.7
-  - conda-forge::poetry>=1.1.14
+  - conda-forge::git-lfs
