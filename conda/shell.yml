@@ -63,3 +63,4 @@ dependencies:
   - bioconda::cutadapt>=4.0
   - bioconda::trim-galore>=0.6.7
   - conda-forge::git-lfs
+  - conda-forge::git-filter-repo
