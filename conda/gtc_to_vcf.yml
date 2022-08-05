@@ -1,0 +1,6 @@
+name: gtc_to_vcf
+dependencies:
+  - python=2.7
+  - anaconda::numpy=1.11.2
+  - bioconda::pyvcf=0.6.8
+  - bioconda::pysam=0.9.0

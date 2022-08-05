@@ -1,7 +1,11 @@
 name: seurat
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
 dependencies:
-  - python>=3.9
-  - pip
+  - conda-forge::python>=3.9
+  - conda-forge::pip
   - conda-forge::r-base>=4.1
   - conda-forge::r-essentials>=4.1
   - conda-forge::r-glue
@@ -27,6 +31,8 @@ dependencies:
   - bioconda::bioconductor-enhancedvolcano
   - conda-forge::r-matrix.utils
   - bioconda::bioconductor-glmgampoi
+  - bioconda::r-harmony>=0.1
+  - bioconda::r-monocle3>=1.0.0
   - pip:
     - scrublet # doublet detection
     - umap-learn==0.5.3
