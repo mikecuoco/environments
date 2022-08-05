@@ -8,6 +8,7 @@ dependencies:
   - conda-forge::bdbag
   - conda-forge::awscli
   - conda-forge::google-cloud-sdk>=396.0.0
+  - conda-forge::openjdk==11.0.15 # need this version for cromwell to work 
   - bioconda::sra-tools
   - bioconda::entrez-direct
   - conda-forge::rclone # cloud access
