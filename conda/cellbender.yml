@@ -6,7 +6,7 @@ channels:
 dependencies:
   - conda-forge::python=3.7
   - conda-forge::pip
-  - anaconda::pytables
+  - conda-forge::pytables
   - pytorch::pytorch
   - pytorch::torchvision
   - pip:

@@ -1,10 +1,10 @@
 name: gatk-sv
 channels:
-  - bioconda
   - conda-forge
+  - bioconda
   - defaults
 dependencies:
-  - python>=3.9
-  - anaconda::jinja2
+  - conda-forge::python>=3.9
+  - conda-forge::jinja2
   - conda-forge::termcolor
   - conda-forge::pprintpp

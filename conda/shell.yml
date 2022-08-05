@@ -6,7 +6,7 @@ channels:
   - defaults
 dependencies:
   - conda-forge::gcc_linux-64 # compiler, TODO: why do I need this?
-  - anaconda::openssl
+  - conda-forge::openssl
   - conda-forge::tar
   - conda-forge::socat # for proxies
   - conda-forge::bat # better cat
@@ -32,7 +32,7 @@ dependencies:
   - conda-forge::numpy>=1.22
   - conda-forge::pandas>=1.4.2
   - conda-forge::ipykernel
-  - anaconda::nbconvert
+  - conda-forge::nbconvert
   - conda-forge::r-irkernel
   - conda-forge::nb_conda_kernels
   - conda-forge::rpy2

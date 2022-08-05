@@ -4,11 +4,10 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - anaconda::python=3.9
+  - conda-forge::python=3.9
   - conda-forge::bdbag
   - conda-forge::awscli
   - conda-forge::google-cloud-sdk>=396.0.0
-  - conda-forge::gsutil>=5.11
   - bioconda::sra-tools
   - bioconda::entrez-direct
   - conda-forge::rclone # cloud access
@@ -16,7 +15,7 @@ dependencies:
   - bioconda::samtools>=1.15
   - bioconda::bcftools>=1.15
   - bioconda::bedtools>=2.30.0
-  - anaconda::wget>=1.20.1
+  - conda-forge::wget>=1.20.1
   - conda-forge::pigz # parallel gzip
   - conda-forge::globus-cli
   - conda-forge::ipykernel

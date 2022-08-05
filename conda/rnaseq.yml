@@ -7,10 +7,10 @@ dependencies:
   - conda-forge::radian
   - conda-forge::r-base>=4.1
   - conda-forge::r-essentials>=4.1
-  - anaconda::r-languageserver
-  - anaconda::r-irkernel # Run R kernel in jupyter
+  - conda-forge::r-languageserver
+  - conda-forge::r-irkernel # Run R kernel in jupyter
 
-  - anaconda::r-gridextra 
+  - conda-forge::r-gridextra 
   
   - conda-forge::r-hmisc
   - conda-forge::r-vroom
@@ -60,4 +60,4 @@ dependencies:
 
 #Python
   - conda-forge::suds-py3 #SOAP Client for David
-  - anaconda::pandas
+  - conda-forge::pandas
