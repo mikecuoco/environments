@@ -5,16 +5,17 @@ channels:
   - defaults
 dependencies:
   - conda-forge::python=3.9
+  - conda-forge::pip
+  - conda-forge::pandas
   - conda-forge::bdbag
   - conda-forge::awscli
   - conda-forge::jq
   - conda-forge::google-cloud-sdk>=396.0.0
   - conda-forge::google-cloud-storage # python api
-  - bioconda::cromshell>=0.5.2
   - conda-forge::openjdk==11.0.15 # need this version for cromwell to work 
   - bioconda::sra-tools
   - bioconda::entrez-direct
-  - conda-forge::rclone # cloud access
+  - conda-forge::rclone # google drive, onedrive, dropbox access
   - bioconda::enabrowsertools>=1.5.4
   - bioconda::samtools>=1.15
   - bioconda::bcftools>=1.15
@@ -23,3 +24,5 @@ dependencies:
   - conda-forge::pigz # parallel gzip
   - conda-forge::globus-cli
   - conda-forge::ipykernel
+  - pip:
+    - "--editable=git+https://github.com/broadinstitute/cromshell.git@cromshell_2.0#egg=cromshell"
