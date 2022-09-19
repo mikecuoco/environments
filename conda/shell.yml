@@ -24,6 +24,7 @@ dependencies:
   - conda-forge::parallel # GNU parallel
   - conda-forge::pigz # parallel gzip
   - conda-forge::ncdu # disk usage
+  - conda-forge::go 
   - conda-forge::jq # JSON processing
   - bioconda::rename # batch renaming
   - bioconda::datamash # bash table operations
