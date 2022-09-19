@@ -2,7 +2,7 @@ name: nf
 channels:
   - conda-forge
   - bioconda
-  - defaults
+  - nodefaults
 dependencies:
    - bioconda::nf-core
    - bioconda::nextflow>=21.10.6

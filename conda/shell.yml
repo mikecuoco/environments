@@ -3,7 +3,7 @@ name: shell
 channels:
   - conda-forge
   - bioconda
-  - defaults
+  - nodefaults
 dependencies:
   - conda-forge::gcc_linux-64 # compiler, TODO: why do I need this?
   - conda-forge::openssl

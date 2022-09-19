@@ -2,7 +2,7 @@ name: data_transfer
 channels:
   - conda-forge
   - bioconda
-  - defaults
+  - nodefaults
 dependencies:
   - conda-forge::python=3.9
   - conda-forge::pip
@@ -26,4 +26,4 @@ dependencies:
   - conda-forge::globus-cli
   - conda-forge::ipykernel
   - pip:
-    - "--editable=git+https://github.com/broadinstitute/cromshell.git@cromshell_2.0#egg=cromshell"
+    - git+https://github.com/broadinstitute/cromshell.git@cromshell_2.0#egg=cromshell

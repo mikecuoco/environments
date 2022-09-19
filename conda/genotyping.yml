@@ -2,7 +2,7 @@ name: genotyping
 channels:
   - conda-forge
   - bioconda
-  - defaults
+  - nodefaults
 dependencies:
   - conda-forge::r-base>=4.1
   - conda-forge::r-essentials

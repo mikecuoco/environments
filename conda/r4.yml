@@ -2,9 +2,7 @@ name: r4
 channels:
   - conda-forge
   - bioconda
-  - biocore
-  - r
-  - defaults
+  - nodefaults
 dependencies:
   - conda-forge::radian
   - conda-forge::r-languageserver

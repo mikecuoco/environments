@@ -2,10 +2,11 @@ name: scTE
 channels:
   - conda-forge
   - bioconda
+  - nodefaults
 dependencies:
   - conda-forge::python>=3.6
   - conda-forge::ipykernel
   - conda-forge::pip
   - bioconda::samtools>=1.15
   - pip:
-    - "--editable=git+https://github.com/mikecuoco/scTE.git#egg=scTE"
+    - git+https://github.com/JiekaiLab/scTE.git#egg=scTE

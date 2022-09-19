@@ -2,7 +2,7 @@ name: rnaseq
 channels:
   - conda-forge
   - bioconda
-  - defaults
+  - nodefaults
 dependencies:
   - conda-forge::radian
   - conda-forge::r-base>=4.1

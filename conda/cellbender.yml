@@ -2,7 +2,8 @@ name: cellbender
 channels:
   - conda-forge
   - bioconda
-  - defaults
+  - pytorch
+  - nodefaults
 dependencies:
   - conda-forge::python=3.7
   - conda-forge::pip
