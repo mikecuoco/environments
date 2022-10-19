@@ -1,0 +1,22 @@
+name: cromwell
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python>=3.7
+  - pip
+  - ipykernel
+  - wget>=1.20.1
+  - pandas
+  - bdbag
+  - awscli
+  - jq # json manipulation
+  - openjdk==11.0.15 # need this version for cromwell to work 
+  - cromwell>=83
+  - google-cloud-sdk>=396.0.0
+  - google-cloud-storage # python api
+  - caper # cromwell python api
+  - croo # cromwell output api
+  - pip:
+    - git+https://github.com/broadinstitute/cromshell.git@cromshell_2.0#egg=cromshell

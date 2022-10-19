@@ -6,7 +6,6 @@ channels:
 dependencies:
   - conda-forge::python=3.9
   - conda-forge::pip
-  - conda-forge::jinja2
   - conda-forge::pandas
   - conda-forge::bdbag
   - conda-forge::awscli
@@ -25,5 +24,3 @@ dependencies:
   - conda-forge::pigz # parallel gzip
   - conda-forge::globus-cli
   - conda-forge::ipykernel
-  - pip:
-    - git+https://github.com/broadinstitute/cromshell.git@cromshell_2.0#egg=cromshell
