@@ -1,0 +1,30 @@
+name: scrnaseq
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.9 # must be <3.10 for scanorama
+  - jupyter
+  - jupyterlab_code_formatter
+  - ipykernel
+  - r-irkernel
+  - nbconvert
+  - scrublet
+  - scanorama
+  - scanpy
+  - matplotlib==3.6
+  - datashader
+  - r-base>=4
+  - bioconductor-deseq2
+  - datashader
+  - plotly
+  - pegasuspy
+  - anndata
+  - rpy2
+  - bioconductor-glmgampoi
+  - pip
+  - pip:
+      - git+https://github.com/ayshwaryas/ddqc.git
+      - git+https://github.com/saketkc/pysctransform.git
+# TODO: maybe try to include Seurat here?
