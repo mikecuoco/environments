@@ -5,26 +5,32 @@ channels:
   - nodefaults
 dependencies:
   - python=3.9 # must be <3.10 for scanorama
+  - r-base>=4
+  - matplotlib==3.6
+
+  # jupyter
   - jupyter
   - jupyterlab_code_formatter
   - ipykernel
   - r-irkernel
   - nbconvert
+  - rpy2
+
+  # sc suites
+  - r-seurat
+  - scanpy
+  - pegasuspy
+
+  # sc tools
   - scrublet
   - scanorama
-  - scanpy
-  - matplotlib==3.6
-  - datashader
-  - r-base>=4
   - bioconductor-deseq2
+  - bioconductor-glmgampoi
+
+  # plotting
   - datashader
   - plotly
-  - pegasuspy
-  - anndata
-  - rpy2
-  - bioconductor-glmgampoi
   - pip
   - pip:
       - git+https://github.com/ayshwaryas/ddqc.git
       - git+https://github.com/saketkc/pysctransform.git
-# TODO: maybe try to include Seurat here?
