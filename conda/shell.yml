@@ -65,6 +65,7 @@ dependencies:
   - joblib
   - tqdm
   - datashader
+  - gnuplot
 
   # jupyter
   - jupyterlab
