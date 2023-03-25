@@ -14,6 +14,7 @@ dependencies:
   - git-lfs
   - git-filter-repo
   - gh # github cli
+  - pre-commit
 
   # file transfer
   - wget
@@ -49,6 +50,8 @@ dependencies:
   - gffutils
   - gffread
   - biopython
+  - pyranges
+  - pysam
 
   # data science
   - numpy
@@ -60,10 +63,12 @@ dependencies:
   - black
   - joblib
   - tqdm
+  - datashader
 
   # jupyter
   - jupyterlab
   - black-jupyter
+  - jupyterlab_code_formatter
   - nb_conda_kernels
   - jupyter-lsp
   - jupyter-lsp-r
