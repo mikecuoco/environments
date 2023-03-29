@@ -15,6 +15,7 @@ dependencies:
   - git-filter-repo
   - gh # github cli
   - pre-commit
+  - r-docopt # for pre-commit
 
   # file transfer
   - wget
