@@ -4,23 +4,23 @@ channels:
   - bioconda
   - nodefaults
 dependencies:
-  - conda-forge::python=3.9
-  - conda-forge::pip
-  - conda-forge::pandas
-  - conda-forge::bdbag
-  - conda-forge::awscli
-  - conda-forge::jq
-  - conda-forge::google-cloud-sdk>=396.0.0
-  - conda-forge::google-cloud-storage # python api
-  - conda-forge::openjdk==11.0.15 # need this version for cromwell to work 
-  - bioconda::sra-tools
-  - bioconda::entrez-direct
-  - conda-forge::rclone # google drive, onedrive, dropbox access
-  - bioconda::enabrowsertools>=1.5.4
-  - bioconda::samtools>=1.15
-  - bioconda::bcftools>=1.15
-  - bioconda::bedtools>=2.30.0
-  - conda-forge::wget>=1.20.1
-  - conda-forge::pigz # parallel gzip
-  - conda-forge::globus-cli
-  - conda-forge::ipykernel
+  - python=3.9
+  - pip
+  - pandas
+  - bdbag
+  - awscli
+  - jq
+  - google-cloud-sdk>=396.0.0
+  - google-cloud-storage # python api
+  - sra-tools
+  - entrez-direct
+  - rclone # google drive, onedrive, dropbox access
+  - synapseclient
+  - enabrowsertools>=1.5.4
+  - samtools>=1.15
+  - bcftools>=1.15
+  - bedtools>=2.30.0
+  - wget>=1.20.1
+  - pigz # parallel gzip
+  - globus-cli
+  - ipykernel

@@ -6,5 +6,5 @@ channels:
 dependencies:
   - pandas
   - biopython
-  - snakemake==7.16.0
-  - snakefmt
+  - snakemake
+  - snakefmt==0.8.0

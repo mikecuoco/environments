@@ -4,46 +4,46 @@ channels:
   - bioconda
   - nodefaults
 dependencies:
-  - conda-forge::radian
-  - conda-forge::r-base>=4.1
-  - conda-forge::r-essentials>=4.1
-  - conda-forge::r-languageserver
-  - conda-forge::r-irkernel # Run R kernel in jupyter
-  - conda-forge::r-gridextra 
-  - conda-forge::r-hmisc
-  - conda-forge::r-vroom
-  - conda-forge::r-ggstatsplot
-  - conda-forge::r-glue
-  - conda-forge::r-patchwork
-  - conda-forge::r-janitor
-  - conda-forge::r-biocmanager
-  - conda-forge::r-ggnewscale #Req for enrichplot
-  - conda-forge::r-ggpubr
-  - bioconda::bioconductor-apeglm #LFC for DESeq2
-  - bioconda::bioconductor-annotationhub
-  - bioconda::bioconductor-biomart #Annotaions of Gene IDs/Symbols
-  - bioconda::bioconductor-complexheatmap
-  - bioconda::bioconductor-deseq2
-  - bioconda::bioconductor-degreport
-  - bioconda::bioconductor-do.db # annotation maps describing the entire Disease Ontology
-  - bioconda::bioconductor-dorothea # TF analysis
-  - bioconda::bioconductor-edger
-  - bioconda::bioconductor-limma
-  - bioconda::bioconductor-enhancedvolcano
-  - bioconda::bioconductor-fgsea # GSEA
-  - bioconda::bioconductor-genomicfeatures
-  - bioconda::bioconductor-ggtree
-  - bioconda::bioconductor-gosemsim #semantic comparisons of Gene Ontology (GO) annotations
-  - bioconda::bioconductor-org.hs.eg.db
-  - bioconda::bioconductor-pcatools
-  - bioconda::bioconductor-rtracklayer
-  - bioconda::bioconductor-sva # for batch correction
-  - bioconda::bioconductor-tximport 
-  - bioconda::bioconductor-tximeta
-  - conda-forge::r-upsetr # upset plotting
-  - conda-forge::r-seurat>=4 # most useing for gene thesaurus function
-  - conda-forge::r-msigdbr
-  - conda-forge::r-venn #enable setdiff, etc for 2+ sets
-#Python
-  - conda-forge::suds-py3 #SOAP Client for David
-  - conda-forge::pandas
+  - radian
+  - r-base>=4.1
+  - r-essentials>=4.1
+  - r-languageserver
+  - r-irkernel # Run R kernel in jupyter
+  - r-gridextra
+  - r-hmisc
+  - r-vroom
+  - r-ggstatsplot
+  - r-glue
+  - r-patchwork
+  - r-janitor
+  - r-biocmanager
+  - r-ggnewscale #Req for enrichplot
+  - r-ggpubr
+  - bioconductor-apeglm #LFC for DESeq2
+  - bioconductor-annotationhub
+  - bioconductor-biomart #Annotaions of Gene IDs/Symbols
+  - bioconductor-complexheatmap
+  - bioconductor-deseq2
+  - bioconductor-degreport
+  - bioconductor-do.db # annotation maps describing the entire Disease Ontology
+  - bioconductor-dorothea # TF analysis
+  - bioconductor-edger
+  - bioconductor-limma
+  - bioconductor-enhancedvolcano
+  - bioconductor-fgsea # GSEA
+  - bioconductor-genomicfeatures
+  - bioconductor-ggtree
+  - bioconductor-gosemsim #semantic comparisons of Gene Ontology (GO) annotations
+  - bioconductor-org.hs.eg.db
+  - bioconductor-pcatools
+  - bioconductor-rtracklayer
+  - bioconductor-sva # for batch correction
+  - bioconductor-tximport
+  - bioconductor-tximeta
+  - r-upsetr # upset plotting
+  - r-seurat>=4 # most useing for gene thesaurus function
+  - r-msigdbr
+  - r-venn #enable setdiff, etc for 2+ sets
+  #Python
+  - suds-py3 #SOAP Client for David
+  - pandas

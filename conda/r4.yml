@@ -4,16 +4,15 @@ channels:
   - bioconda
   - nodefaults
 dependencies:
-  - conda-forge::radian
-  - conda-forge::r-languageserver
-  - conda-forge::r-base>=4.1
-  - conda-forge::r-essentials>=4.1
-  - conda-forge::r-biocmanager
-  - conda-forge::r-vroom
-  - conda-forge::r-ggstatsplot
-  - conda-forge::r-janitor
-  - conda-forge::r-patchwork
-  - bioconda::bioconductor-do.db
-  - bioconda::bioconductor-org.hs.eg.db
-  - bioconda::bioconductor-clusterprofiler
-  
+  - radian
+  - r-languageserver
+  - r-base>=4.1
+  - r-essentials>=4.1
+  - r-biocmanager
+  - r-vroom
+  - r-ggstatsplot
+  - r-janitor
+  - r-patchwork
+  - bioconductor-do.db
+  - bioconductor-org.hs.eg.db
+  - bioconductor-clusterprofiler
