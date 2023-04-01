@@ -16,6 +16,7 @@ dependencies:
   - gh # github cli
   - pre-commit
   - r-docopt # for pre-commit
+  - cookiecutter
 
   # file transfer
   - wget
