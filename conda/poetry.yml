@@ -1,0 +1,8 @@
+name: poetry
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - poetry
+  - gh
