@@ -66,6 +66,7 @@ dependencies:
   - black
   - joblib
   - tqdm
+  - holoviews
   - datashader
   - gnuplot
   - pyarrow
