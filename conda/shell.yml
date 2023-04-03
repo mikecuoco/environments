@@ -3,6 +3,7 @@ name: shell
 channels:
   - conda-forge
   - bioconda
+  - pytorch
   - nodefaults
 dependencies:
   - gcc_linux-64 # compiler, TODO: why do I need this?
@@ -61,6 +62,9 @@ dependencies:
   - pandas
   - seaborn
   - scikit-learn
+  - xgboost
+  - pytorch
+  - imbalanced-learn
   - snakemake
   - snakefmt
   - black
