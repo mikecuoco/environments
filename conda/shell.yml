@@ -55,6 +55,7 @@ dependencies:
   - biopython
   - pyranges
   - pysam
+  - graphviz
   - gtfparse
 
   # data science
