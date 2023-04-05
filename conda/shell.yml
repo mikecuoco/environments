@@ -67,6 +67,8 @@ dependencies:
   - imbalanced-learn
   - snakemake
   - snakefmt
+  - nextflow
+  - nf-core
   - black
   - joblib
   - tqdm
