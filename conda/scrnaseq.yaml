@@ -26,7 +26,8 @@ dependencies:
   - scanorama
   - bioconductor-deseq2
   - bioconductor-glmgampoi
-
+  - bioconductor-fgsea
+  
   # plotting
   - datashader
   - plotly
