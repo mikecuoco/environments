@@ -35,3 +35,4 @@ dependencies:
   - pip:
       - git+https://github.com/ayshwaryas/ddqc.git
       - git+https://github.com/saketkc/pysctransform.git
+      - git+https://github.com/saezlab/decoupler-py.git
