@@ -1,14 +1,11 @@
 # this is a conda environment for my general-use shell tools
-name: shell
 channels:
   - conda-forge
   - bioconda
-  - pytorch
   - nodefaults
 dependencies:
-  - gcc_linux-64 # compiler, TODO: why do I need this?
-  - openssl
   - socat # for proxies
+  - python=3.11 # pin to speed up solve time
 
   # git/github
   - git>=2.3
@@ -16,8 +13,6 @@ dependencies:
   - git-filter-repo
   - gh # github cli
   - pre-commit
-  - r-docopt # for pre-commit
-  - cookiecutter
 
   # file transfer
   - wget
@@ -27,6 +22,7 @@ dependencies:
   - fzf # awesome file finder
   - the_silver_searcher # better grep (shortcut = ag)
   - ripgrep # fastest grep (shortcut = rg)
+  - tree
 
   # file processing
   - csvkit # csv manipulation
@@ -47,51 +43,22 @@ dependencies:
   - bedtools>=2.30.0
   - plink2
   - plink
-  - ucsc-bigbedtobed
-  - ucsc-bigBedSummary
-  - ucsc-bigbedinfo
-  - ucsc-bedtobigbed
   - gffutils
   - gffread
   - biopython
-  - pyranges
-  - pysam
-  - graphviz
   - gtfparse
 
   # data science
   - numpy
   - pandas
   - seaborn
-  - scikit-learn
-  - xgboost
-  - pytorch
-  - imbalanced-learn
-  - snakemake
-  - snakefmt
-  - nextflow
-  - nf-core
   - black
   - joblib
   - tqdm
-  - holoviews
-  - datashader
-  - gnuplot
-  - pyarrow
 
   # jupyter
   - jupyterlab
   - black-jupyter
-  - jupyterlab_code_formatter
   - nb_conda_kernels
-  - jupyter-lsp
-  - jupyter-lsp-r
-  - jupyter-lsp-python
-  - ipywidgets
-  - jupyterlab-git
-  - jupyter-server-proxy
-  - jupyterlab-latex
   - nbdime
   - nbconvert
-  - ipykernel
-  - r-irkernel
