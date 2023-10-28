@@ -7,4 +7,4 @@ dependencies:
   - pandas
   - biopython
   - snakemake
-  - snakefmt==0.8.0
+  - snakefmt
